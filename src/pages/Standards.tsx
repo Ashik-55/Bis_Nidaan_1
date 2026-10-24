@@ -117,7 +117,7 @@ function StandardCard({ result }: { result: { standard: Standard; matchPct: numb
           </div>
           <div className="flex items-center gap-2 text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded px-2 py-1.5">
             <AlertTriangle size={11} />
-            DEMO DATA — For official information, consult BIS website
+            — For official information, consult BIS website
           </div>
         </div>
       )}

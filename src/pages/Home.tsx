@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <span className="demo-badge hidden sm:inline-flex">PROTOTYPE · DEMO DATA</span>
+            <span className="demo-badge hidden sm:inline-flex">PROTOTYPE ·</span>
             <Link to="/dashboard" className="btn-primary text-sm">
               Open Dashboard
               <ArrowRight size={14} />
@@ -88,10 +88,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-20 md:py-28">
           <div className="max-w-3xl">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-500/20 border border-blue-500/30 text-blue-300 text-xs font-semibold rounded-full mb-8">
-              <div className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" />
-              SIH 2024 · Problem Statement 26107 · Team 404 minds
-            </div>
+
 
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
               BIS
@@ -212,7 +209,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-sm">
-            BIS NIDAAN — Prototype by 404 minds &nbsp;|&nbsp; Demo data only. Not an official BIS service.
+            BIS NIDAAN — Prototype
           </p>
           <p className="text-xs mt-2 text-gray-500">
             Smart India Hackathon 2024 · Problem Statement 26107

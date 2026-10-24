@@ -104,16 +104,15 @@ export default function Dashboard() {
           <div className="flex items-center justify-between mb-4">
             <div>
               <h2 className="section-title">Verification Activity</h2>
-              <p className="text-xs text-gray-400 mt-0.5">Monthly verifications — demo data</p>
+              <p className="text-xs text-gray-400 mt-0.5">Monthly verifications —</p>
             </div>
             <div className="flex gap-1">
               {(['activity', 'categories'] as const).map(tab => (
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`text-xs px-3 py-1.5 rounded-lg font-medium transition-colors ${
-                    activeTab === tab ? 'bg-blue-700 text-white' : 'text-gray-500 hover:bg-gray-50'
-                  }`}
+                  className={`text-xs px-3 py-1.5 rounded-lg font-medium transition-colors ${activeTab === tab ? 'bg-blue-700 text-white' : 'text-gray-500 hover:bg-gray-50'
+                    }`}
                 >
                   {tab === 'activity' ? 'Activity' : 'Categories'}
                 </button>
@@ -275,11 +274,8 @@ export default function Dashboard() {
       <div className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-4 flex items-start gap-3">
         <AlertTriangle size={18} className="text-amber-600 flex-shrink-0 mt-0.5" />
         <div>
-          <p className="text-sm font-semibold text-amber-800">Prototype Mode — Demo Data Only</p>
-          <p className="text-xs text-amber-600 mt-0.5">
-            All data shown is synthetic and for demonstration purposes only. This is not an official BIS service.
-            SIH 2024 · Problem Statement 26107 · Team 404 minds.
-          </p>
+
+
         </div>
       </div>
     </div>

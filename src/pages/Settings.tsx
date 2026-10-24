@@ -132,7 +132,7 @@ export default function Settings() {
 
       {/* Footer notice */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-center">
-        <p className="text-xs text-amber-700 font-semibold">PROTOTYPE — DEMO DATA ONLY</p>
+        <p className="text-xs text-amber-700 font-semibold">PROTOTYPE — ONLY</p>
         <p className="text-xs text-amber-600 mt-1">
           This application is a prototype for Smart India Hackathon 2024 (Problem Statement 26107).
           All data is synthetic. This is NOT an official BIS service.

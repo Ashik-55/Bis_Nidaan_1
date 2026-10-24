@@ -47,10 +47,7 @@ export default function Topbar({ onMenuClick }: TopbarProps) {
       {/* Right */}
       <div className="flex items-center gap-2">
         {/* Demo badge */}
-        <span className="demo-badge hidden sm:inline-flex">
-          <FlaskConical size={12} />
-          PROTOTYPE • DEMO DATA
-        </span>
+
 
         {/* Notifications */}
         <button className="relative p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors">

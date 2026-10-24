@@ -89,7 +89,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
             <span className="text-xs text-gray-400 font-medium">PROTOTYPE v0.3</span>
           </div>
-          <p className="text-xs text-gray-500 px-2 mt-1">SIH 26107 · Team 404 minds</p>
+
         </div>
       </aside>
     </>

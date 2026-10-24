@@ -15,7 +15,7 @@ This standard covers electric kettles, irons, toasters, and similar household el
 - ISI mark certification (CM/L- license number)
 - Annual license renewal
 
-*Note: This is a prototype response based on demo data. In the production system, this would be sourced from the official BIS standards database via RAG.*`,
+*Note: This is a prototype response based on. In the production system, this would be sourced from the official BIS standards database via RAG.*`,
     evidence: [
       {
         id: 'ev-001',

@@ -153,7 +153,7 @@ export default function DataMatrixGenerator() {
         </div>
         <span className="demo-badge">
           <FlaskConical size={12} />
-          DEMO DATA
+
         </span>
       </div>
 
