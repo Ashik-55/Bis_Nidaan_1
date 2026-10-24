@@ -47,9 +47,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         {/* Logo */}
         <div className="flex items-center justify-between h-16 px-5 border-b border-white/10">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <Layers size={16} className="text-white" />
-            </div>
+            <img src="" alt="" />
             <div>
               <div className="text-white font-bold text-base leading-tight">BIS NIDAAN</div>
               <div className="text-blue-300 text-xs">Standards Platform</div>
