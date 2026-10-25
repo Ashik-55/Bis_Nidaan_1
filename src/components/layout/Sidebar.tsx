@@ -2,7 +2,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard, Package, ScanLine, QrCode, BookOpen,
   ClipboardCheck, Bot, BarChart3, Settings, ChevronRight,
-  Layers, X,
+  X,
 } from 'lucide-react';
 
 interface SidebarProps {

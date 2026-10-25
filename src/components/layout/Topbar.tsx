@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Menu, Search, Bell, User, ChevronDown, FlaskConical } from 'lucide-react';
+import { Menu, Search, Bell, User, ChevronDown } from 'lucide-react';
 
 interface TopbarProps {
   onMenuClick: () => void;
