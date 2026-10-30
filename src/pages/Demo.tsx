@@ -1,17 +1,22 @@
-// TODO: Replace with your actual YouTube demo video ID.
-const videoId = 'dQw4w9WgXcQ';
+```jsx
+const videoUrl =
+  'https://pub-98c0b493be9947fc9aa35fc3e0dc8e0b.r2.dev/demo.mp4';
 
 export default function Demo() {
   return (
     <div className="w-screen h-screen bg-black">
-      <iframe
-        className="w-full h-full"
-        src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`}
+      <video
+        className="w-full h-full object-contain"
+        src={videoUrl}
         title="BIS NIDAAN Demo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      />
+        controls
+        autoPlay
+        playsInline
+        preload="metadata"
+      >
+        Your browser does not support HTML5 video.
+      </video>
     </div>
   );
 }
+```
