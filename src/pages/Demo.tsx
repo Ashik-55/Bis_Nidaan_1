@@ -1,5 +1,3 @@
-import React from 'react';
-
 const videoUrl =
 'https://pub-98c0b493be9947fc9aa35fc3e0dc8e0b.r2.dev/demo.mp4';
 
