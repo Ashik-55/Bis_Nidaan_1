@@ -11,6 +11,7 @@ import Standards from './pages/Standards';
 import Compliance from './pages/Compliance';
 import Assistant from './pages/Assistant';
 import Settings from './pages/Settings';
+import Demo from './pages/Demo';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <Route path="/assistant" element={<Assistant />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
-
+          <Route path="/demo" element={<Demo />} />
         {/* Catch all */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
